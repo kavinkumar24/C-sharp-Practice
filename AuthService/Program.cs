@@ -13,7 +13,7 @@ builder.Services.AddDbContext<AuthDbContext>(options =>
     options.UseSqlite("Data Source=auth.db"));
 
 
-
+builder.Services.AddControllersWithViews();
 builder.Services.AddControllers();
 
 builder.Services.AddAuthorization();
@@ -32,8 +32,16 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAuthorization();
+
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/register.html");
+    return Task.CompletedTask;
+});
+
 app.MapControllers();
 app.MapIdentityApi<IdentityUser>();
+app.MapDefaultControllerRoute();
 
 
 app.Run();

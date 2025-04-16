@@ -37,5 +37,23 @@ namespace AuthService.Controllers
 
             return BadRequest(result.Errors);
         }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromForm] LoginRequest model)
+        {
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+                return BadRequest("Invalid login attempt.");
+            }
+
+            var result = await _userManager.CheckPasswordAsync(user, model.Password);
+            if (result)
+            {
+                return Redirect("/home.html");
+            }   
+
+            return BadRequest("Invalid login attempt.");
+        }
     }
 }

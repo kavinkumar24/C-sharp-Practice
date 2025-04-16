@@ -311,7 +311,6 @@ E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\A
 E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\AuthService.MvcApplicationPartsAssemblyInfo.cache
 E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\AuthService.sourcelink.json
 E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\scopedcss\bundle\AuthService.styles.css
-E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\compressed\3zf0j02qj8-q15ijndmzn.gz
 E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\staticwebassets.build.json
 E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\staticwebassets.development.json
 E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -327,3 +326,6 @@ E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\r
 E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\AuthService.pdb
 E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\AuthService.genruntimeconfig.cache
 E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\ref\AuthService.dll
+E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\compressed\3zf0j02qj8-m6tl15vpqa.gz
+E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\compressed\8uvyjjeci9-17gtnem66o.gz
+E:\Presidio-Training\C#-Practice\C-sharp-Practice\AuthService\obj\Debug\net9.0\compressed\e9bw01ozw7-6x9yc223kt.gz

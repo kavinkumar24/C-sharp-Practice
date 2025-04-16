@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TdNQTJKp1SspB/8cX9VO/OZ1zSCxtQWKs6Zzq+/q5MY=",
+  "Hash": "JPoKyRGZyFamW7/tfMXwTRtbVp0QgOhSnteVdMfMzlg=",
   "Source": "AuthService",
   "BasePath": "_content/AuthService",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\3zf0j02qj8-q15ijndmzn.gz",
+      "Identity": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\3zf0j02qj8-m6tl15vpqa.gz",
       "SourceId": "AuthService",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AuthService",
-      "RelativePath": "register#[.{fingerprint=q15ijndmzn}]?.html.gz",
+      "RelativePath": "register#[.{fingerprint=m6tl15vpqa}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,11 +31,95 @@
       "RelatedAsset": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\register.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4azr11x45l",
-      "Integrity": "pL/UG91fB9nkVN5DhFwpvrQCYpPS+LISVzDkyaw/mBg=",
+      "Fingerprint": "ykouwdps76",
+      "Integrity": "8ttquv+Oo+oCkjoyQc3f6RuF7sLuW1dDiz3LSr6SVN4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\register.html"
+    },
+    {
+      "Identity": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\8uvyjjeci9-17gtnem66o.gz",
+      "SourceId": "AuthService",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/AuthService",
+      "RelativePath": "login#[.{fingerprint=17gtnem66o}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\login.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "79b3k1adnq",
+      "Integrity": "u3M8/aw7IfcDOHwa9PNd1Wd+XdO2buE55wHZ6Aapgw8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\login.html"
+    },
+    {
+      "Identity": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\e9bw01ozw7-6x9yc223kt.gz",
+      "SourceId": "AuthService",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/AuthService",
+      "RelativePath": "home#[.{fingerprint=6x9yc223kt}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\home.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ri4cm8bm84",
+      "Integrity": "HTg3q11ejP72SOg/OnOaxveeejvAmcwrXvzOVyy/Pnw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\home.html"
+    },
+    {
+      "Identity": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\home.html",
+      "SourceId": "AuthService",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\",
+      "BasePath": "_content/AuthService",
+      "RelativePath": "home#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6x9yc223kt",
+      "Integrity": "uhoit2QS41YTBGTygWkENNAMieCMBpisnpJwghR9mlU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\home.html"
+    },
+    {
+      "Identity": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\login.html",
+      "SourceId": "AuthService",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\",
+      "BasePath": "_content/AuthService",
+      "RelativePath": "login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "17gtnem66o",
+      "Integrity": "PUaO1sE3Cxxk4xAt8+gCjcI5jyX+PqLFGScRGuoAtlU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
     },
     {
       "Identity": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\register.html",
@@ -52,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "q15ijndmzn",
-      "Integrity": "DunkjGIkUfAqgIHNYZpELc7/UQpFNHEgrrzSZVHFKd0=",
+      "Fingerprint": "m6tl15vpqa",
+      "Integrity": "AnRItrLJ27iLBmHnvRqRgK1tDr0okpr94CoW1gXx5Ng=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\register.html"
@@ -61,13 +145,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "register.html",
-      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\3zf0j02qj8-q15ijndmzn.gz",
+      "Route": "home.6x9yc223kt.html",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\e9bw01ozw7-6x9yc223kt.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001709401709"
+          "Quality": "0.004545454545"
         }
       ],
       "ResponseHeaders": [
@@ -77,15 +161,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "584"
+          "Value": "219"
         },
         {
           "Name": "ETag",
-          "Value": "\"pL/UG91fB9nkVN5DhFwpvrQCYpPS+LISVzDkyaw/mBg=\""
+          "Value": "\"HTg3q11ejP72SOg/OnOaxveeejvAmcwrXvzOVyy/Pnw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:45:33 GMT"
+          "Value": "Wed, 16 Apr 2025 11:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"uhoit2QS41YTBGTygWkENNAMieCMBpisnpJwghR9mlU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6x9yc223kt"
+        },
+        {
+          "Name": "label",
+          "Value": "home.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uhoit2QS41YTBGTygWkENNAMieCMBpisnpJwghR9mlU="
+        }
+      ]
+    },
+    {
+      "Route": "home.6x9yc223kt.html",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uhoit2QS41YTBGTygWkENNAMieCMBpisnpJwghR9mlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 11:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6x9yc223kt"
+        },
+        {
+          "Name": "label",
+          "Value": "home.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uhoit2QS41YTBGTygWkENNAMieCMBpisnpJwghR9mlU="
+        }
+      ]
+    },
+    {
+      "Route": "home.6x9yc223kt.html.gz",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\e9bw01ozw7-6x9yc223kt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HTg3q11ejP72SOg/OnOaxveeejvAmcwrXvzOVyy/Pnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 11:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6x9yc223kt"
+        },
+        {
+          "Name": "label",
+          "Value": "home.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HTg3q11ejP72SOg/OnOaxveeejvAmcwrXvzOVyy/Pnw="
+        }
+      ]
+    },
+    {
+      "Route": "home.html",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\e9bw01ozw7-6x9yc223kt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004545454545"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "219"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HTg3q11ejP72SOg/OnOaxveeejvAmcwrXvzOVyy/Pnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 11:34:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -105,13 +350,448 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DunkjGIkUfAqgIHNYZpELc7/UQpFNHEgrrzSZVHFKd0=\""
+          "Value": "W/\"uhoit2QS41YTBGTygWkENNAMieCMBpisnpJwghR9mlU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DunkjGIkUfAqgIHNYZpELc7/UQpFNHEgrrzSZVHFKd0="
+          "Value": "sha256-uhoit2QS41YTBGTygWkENNAMieCMBpisnpJwghR9mlU="
+        }
+      ]
+    },
+    {
+      "Route": "home.html",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uhoit2QS41YTBGTygWkENNAMieCMBpisnpJwghR9mlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 11:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uhoit2QS41YTBGTygWkENNAMieCMBpisnpJwghR9mlU="
+        }
+      ]
+    },
+    {
+      "Route": "home.html.gz",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\e9bw01ozw7-6x9yc223kt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HTg3q11ejP72SOg/OnOaxveeejvAmcwrXvzOVyy/Pnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 11:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HTg3q11ejP72SOg/OnOaxveeejvAmcwrXvzOVyy/Pnw="
+        }
+      ]
+    },
+    {
+      "Route": "login.17gtnem66o.html",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\8uvyjjeci9-17gtnem66o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001792114695"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "557"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u3M8/aw7IfcDOHwa9PNd1Wd+XdO2buE55wHZ6Aapgw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 10:13:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PUaO1sE3Cxxk4xAt8+gCjcI5jyX+PqLFGScRGuoAtlU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "17gtnem66o"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PUaO1sE3Cxxk4xAt8+gCjcI5jyX+PqLFGScRGuoAtlU="
+        }
+      ]
+    },
+    {
+      "Route": "login.17gtnem66o.html",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PUaO1sE3Cxxk4xAt8+gCjcI5jyX+PqLFGScRGuoAtlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 10:13:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "17gtnem66o"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PUaO1sE3Cxxk4xAt8+gCjcI5jyX+PqLFGScRGuoAtlU="
+        }
+      ]
+    },
+    {
+      "Route": "login.17gtnem66o.html.gz",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\8uvyjjeci9-17gtnem66o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "557"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u3M8/aw7IfcDOHwa9PNd1Wd+XdO2buE55wHZ6Aapgw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 10:13:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "17gtnem66o"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u3M8/aw7IfcDOHwa9PNd1Wd+XdO2buE55wHZ6Aapgw8="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\8uvyjjeci9-17gtnem66o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001792114695"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "557"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u3M8/aw7IfcDOHwa9PNd1Wd+XdO2buE55wHZ6Aapgw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 10:13:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PUaO1sE3Cxxk4xAt8+gCjcI5jyX+PqLFGScRGuoAtlU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PUaO1sE3Cxxk4xAt8+gCjcI5jyX+PqLFGScRGuoAtlU="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PUaO1sE3Cxxk4xAt8+gCjcI5jyX+PqLFGScRGuoAtlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 10:13:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PUaO1sE3Cxxk4xAt8+gCjcI5jyX+PqLFGScRGuoAtlU="
+        }
+      ]
+    },
+    {
+      "Route": "login.html.gz",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\8uvyjjeci9-17gtnem66o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "557"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u3M8/aw7IfcDOHwa9PNd1Wd+XdO2buE55wHZ6Aapgw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 10:13:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u3M8/aw7IfcDOHwa9PNd1Wd+XdO2buE55wHZ6Aapgw8="
+        }
+      ]
+    },
+    {
+      "Route": "register.html",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\3zf0j02qj8-m6tl15vpqa.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001538461538"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ttquv+Oo+oCkjoyQc3f6RuF7sLuW1dDiz3LSr6SVN4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 09:42:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AnRItrLJ27iLBmHnvRqRgK1tDr0okpr94CoW1gXx5Ng=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AnRItrLJ27iLBmHnvRqRgK1tDr0okpr94CoW1gXx5Ng="
         }
       ]
     },
@@ -126,7 +806,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1424"
+          "Value": "1550"
         },
         {
           "Name": "Content-Type",
@@ -134,11 +814,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DunkjGIkUfAqgIHNYZpELc7/UQpFNHEgrrzSZVHFKd0=\""
+          "Value": "\"AnRItrLJ27iLBmHnvRqRgK1tDr0okpr94CoW1gXx5Ng=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:45:33 GMT"
+          "Value": "Wed, 16 Apr 2025 09:42:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -148,13 +828,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DunkjGIkUfAqgIHNYZpELc7/UQpFNHEgrrzSZVHFKd0="
+          "Value": "sha256-AnRItrLJ27iLBmHnvRqRgK1tDr0okpr94CoW1gXx5Ng="
         }
       ]
     },
     {
       "Route": "register.html.gz",
-      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\3zf0j02qj8-q15ijndmzn.gz",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\3zf0j02qj8-m6tl15vpqa.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -163,7 +843,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "584"
+          "Value": "649"
         },
         {
           "Name": "Content-Type",
@@ -171,11 +851,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pL/UG91fB9nkVN5DhFwpvrQCYpPS+LISVzDkyaw/mBg=\""
+          "Value": "\"8ttquv+Oo+oCkjoyQc3f6RuF7sLuW1dDiz3LSr6SVN4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:45:33 GMT"
+          "Value": "Wed, 16 Apr 2025 09:42:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -193,18 +873,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pL/UG91fB9nkVN5DhFwpvrQCYpPS+LISVzDkyaw/mBg="
+          "Value": "sha256-8ttquv+Oo+oCkjoyQc3f6RuF7sLuW1dDiz3LSr6SVN4="
         }
       ]
     },
     {
-      "Route": "register.q15ijndmzn.html",
-      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\3zf0j02qj8-q15ijndmzn.gz",
+      "Route": "register.m6tl15vpqa.html",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\3zf0j02qj8-m6tl15vpqa.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001709401709"
+          "Quality": "0.001538461538"
         }
       ],
       "ResponseHeaders": [
@@ -214,15 +894,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "584"
+          "Value": "649"
         },
         {
           "Name": "ETag",
-          "Value": "\"pL/UG91fB9nkVN5DhFwpvrQCYpPS+LISVzDkyaw/mBg=\""
+          "Value": "\"8ttquv+Oo+oCkjoyQc3f6RuF7sLuW1dDiz3LSr6SVN4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:45:33 GMT"
+          "Value": "Wed, 16 Apr 2025 09:42:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -242,13 +922,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DunkjGIkUfAqgIHNYZpELc7/UQpFNHEgrrzSZVHFKd0=\""
+          "Value": "W/\"AnRItrLJ27iLBmHnvRqRgK1tDr0okpr94CoW1gXx5Ng=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q15ijndmzn"
+          "Value": "m6tl15vpqa"
         },
         {
           "Name": "label",
@@ -256,12 +936,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DunkjGIkUfAqgIHNYZpELc7/UQpFNHEgrrzSZVHFKd0="
+          "Value": "sha256-AnRItrLJ27iLBmHnvRqRgK1tDr0okpr94CoW1gXx5Ng="
         }
       ]
     },
     {
-      "Route": "register.q15ijndmzn.html",
+      "Route": "register.m6tl15vpqa.html",
       "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\wwwroot\\register.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -271,7 +951,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1424"
+          "Value": "1550"
         },
         {
           "Name": "Content-Type",
@@ -279,11 +959,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DunkjGIkUfAqgIHNYZpELc7/UQpFNHEgrrzSZVHFKd0=\""
+          "Value": "\"AnRItrLJ27iLBmHnvRqRgK1tDr0okpr94CoW1gXx5Ng=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:45:33 GMT"
+          "Value": "Wed, 16 Apr 2025 09:42:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -293,7 +973,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q15ijndmzn"
+          "Value": "m6tl15vpqa"
         },
         {
           "Name": "label",
@@ -301,13 +981,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DunkjGIkUfAqgIHNYZpELc7/UQpFNHEgrrzSZVHFKd0="
+          "Value": "sha256-AnRItrLJ27iLBmHnvRqRgK1tDr0okpr94CoW1gXx5Ng="
         }
       ]
     },
     {
-      "Route": "register.q15ijndmzn.html.gz",
-      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\3zf0j02qj8-q15ijndmzn.gz",
+      "Route": "register.m6tl15vpqa.html.gz",
+      "AssetFile": "E:\\Presidio-Training\\C#-Practice\\C-sharp-Practice\\AuthService\\obj\\Debug\\net9.0\\compressed\\3zf0j02qj8-m6tl15vpqa.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -316,7 +996,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "584"
+          "Value": "649"
         },
         {
           "Name": "Content-Type",
@@ -324,11 +1004,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pL/UG91fB9nkVN5DhFwpvrQCYpPS+LISVzDkyaw/mBg=\""
+          "Value": "\"8ttquv+Oo+oCkjoyQc3f6RuF7sLuW1dDiz3LSr6SVN4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 11:45:33 GMT"
+          "Value": "Wed, 16 Apr 2025 09:42:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -346,7 +1026,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q15ijndmzn"
+          "Value": "m6tl15vpqa"
         },
         {
           "Name": "label",
@@ -354,7 +1034,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pL/UG91fB9nkVN5DhFwpvrQCYpPS+LISVzDkyaw/mBg="
+          "Value": "sha256-8ttquv+Oo+oCkjoyQc3f6RuF7sLuW1dDiz3LSr6SVN4="
         }
       ]
     }
