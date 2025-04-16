@@ -66,6 +66,19 @@ namespace AuthService.Models
 }
 ```
 
+- Login Model to verify the user's data
+
+```c#
+namespace AuthService.Models
+{
+    public class LoginRequest
+    {
+        public string? Email { get; set; }
+        public string? Password { get; set; }
+    }
+}
+```
+
 ### Sqlite creation
 
 ```plaintext
@@ -80,6 +93,11 @@ namespace AuthService.Models
 - `[HttpPost("register")]` - handles `/account/register` post api.
 - `public async Task<IActionResult> Register([FromForm] RegisterRequest model)` - Where it will bind the form data into the model by matching its properties.
 - Inside that Register handles the `null` input, matches the password and using `CreateAsync` - object has been created and if any exception occurs then a ActionResult Methods wil be passed accordingly.
+- `[HttpPost("login")]` -  handles account/login post api for authentication.
+- `FindByEmailAsync` - Helps to find a email present in the sqlite db.
+- `CheckPasswordAsync` - Helps to verify the sqlite password and user's password.
+- `Redirect` - If result is success then redirect to the `home.html` page.
+
 
 ```c#
 using Microsoft.AspNetCore.Identity;
@@ -121,6 +139,24 @@ namespace AuthService.Controllers
 
             return BadRequest(result.Errors);
         }
+
+                [HttpPost("login")]
+        public async Task<IActionResult> Login([FromForm] LoginRequest model)
+        {
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+                return BadRequest("Invalid login attempt.");
+            }
+
+            var result = await _userManager.CheckPasswordAsync(user, model.Password);
+            if (result)
+            {
+                return Redirect("/home.html");
+            }
+
+            return BadRequest("Invalid login attempt.");
+        }
     }
 }
 ```
@@ -136,7 +172,7 @@ namespace AuthService.Controllers
 
 ### Main Entry
 
-- `AddEndpointsApiExplorer` - Enables  API documentation generation, usually used with Swagger for automatic documentation of your API endpoints.
+- `AddEndpointsApiExplorer` - Enables API documentation generation, usually used with Swagger for automatic documentation of your API endpoints.
 - `AddSwaggerGen` - Adds a Swagger generator service, which will automatically generates a web API documentation UI.
 - `AddDbContext<AuthDbContext>` - Registers the AuthDbContext with the dependency injection container, which allows it to be injected into controllers and services.
 - `UseSqlite("Data Source=auth.db")` - Configures the app to use SQLite as the database provider.
@@ -148,9 +184,10 @@ namespace AuthService.Controllers
 - `app.Environment.IsDevelopment()` - check if the app is running and then enable the swagger.
 - `UseHttpsRedirection` - Redirects HTTP requests to HTTPS, ensuring all communications are secure.
 - `UseStaticFiles` - Allows serving static files (e.g., CSS, HTML, JS) from the wwwroot directory.
+- Set the default route path be a register.html.
 - `UseAuthorization` - Enables the use of authorization middleware.
 - `MapControllers` - Maps the controller actions to the appropriate HTTP routes defined in the controllers.
-`Run` - Starts the application and listens for incoming HTTP requests
+- `Run` - Starts the application and listens for incoming HTTP requests
 
 ```c#
 using AuthService.Data;
@@ -187,6 +224,13 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAuthorization();
+
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/register.html");
+    return Task.CompletedTask;
+});
+
 app.MapControllers();
 app.MapIdentityApi<IdentityUser>();
 
@@ -211,5 +255,3 @@ app.Run();
 ![alt text](./assets/O6.png)
 
 ![alt text](./assets/O7.png)
-
-
